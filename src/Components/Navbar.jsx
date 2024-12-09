@@ -21,9 +21,9 @@ const Navbar = (props) => {
           <li>
             <Link to="/" className='mr-4'>Home</Link>
 
-            <Link to="/" className='mr-4'>About</Link>
+            <Link to="/about" className='mr-4'>About</Link>
 
-            <Link to="/" className='mr-4' >Contact</Link>
+            <Link to="/contact" className='mr-4' >Contact</Link>
           </li>
         </ul>
       </nav>
